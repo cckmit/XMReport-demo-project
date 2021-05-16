@@ -1,0 +1,13 @@
+spring:
+    http:
+        encoding:
+            charset: UTF-8
+            enabled: true
+            force: true
+    mvc:
+        favicon:
+            enabled: false
+server:
+    port: 8080
+    tomcat:
+        max-http-post-size: 100MB
